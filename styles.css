@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #005bbb;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #004999;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #005bbb;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service {
+    background-color: #003377;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.service h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.service a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.service a:hover {
+    text-decoration: underline;
+}
+
+.image-gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about {
+    padding: 20px;
+    background-color: #002244;
+}
+
+.content {
+    padding: 20px;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 20px;
+    background-color: #003377;
+}
+
+.footer-content p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
