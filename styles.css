@@ -4,7 +4,7 @@ header a {
     text-decoration: none;  /* Removes the default underline from the link */
 }
 
-header a:hover {
+h1 a:hover {
     text-decoration: underline;  /* Adds underline on hover for better UX */
 }
 body {
@@ -28,6 +28,12 @@ header h1 {
 header p {
     margin: 0;
     font-size: 1.2em;
+}
+
+header .site-logo {
+    width: 50px;  /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px;
 }
 
 .hero {
