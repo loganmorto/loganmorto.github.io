@@ -1,3 +1,12 @@
+
+header a {
+    color: inherit;  /* Ensures the link color matches the current text color */
+    text-decoration: none;  /* Removes the default underline from the link */
+}
+
+header a:hover {
+    text-decoration: underline;  /* Adds underline on hover for better UX */
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #005bbb;
